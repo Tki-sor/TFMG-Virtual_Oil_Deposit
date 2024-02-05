@@ -1,0 +1,43 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
+
+[[mods]]
+modId = "tfmgvod"
+
+version = "${version}"
+displayName = "TFMG: Virtual Oil Deposit"
+
+authors="Tki_sor"
+
+description = '''
+
+'''
+
+[[dependencies.tfmgvod]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tfmgvod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tfmgvod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tfmgvod]]
+modId = "tfmg"
+mandatory = true
+versionRange = "NONE"
+ordering = "NONE"
+side = "BOTH"
